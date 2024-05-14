@@ -1,0 +1,625 @@
+body{
+    direction: rtl;
+background-color:rgb(36, 36, 36);
+color: rgb(240, 152, 45);
+}
+nav {direction: ltr;
+    background-color:rgb(240, 152, 45);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    cursor: pointer;
+    width: 125px;
+    height: 80px;
+    margin-right: 150px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #606163;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: none;
+    color: #373aff;
+  }
+  
+  nav #container {
+    position: absolute;
+    top: 68px;
+    left: 96%;
+    transform: translate(-50%, -50%);
+  }
+    /* The Modal (background) */
+.modal {direction: ltr;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {direction: ltr;
+    color: #000;
+    background-color: rgb(241, 180, 123);
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    /* Position it in the top right corner outside of the modal */
+    direction: ltr;
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  /* Close button on hover */
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }
+  /* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 20%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+h1{
+  text-align: center;
+}
+
+.h1{
+    background-color:  rgb(240, 152, 45);
+    color:rgb(36, 36, 36);
+    text-align: center
+}
+.poster1{
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    border: 15px solid rgb(240, 152, 45);
+}
+.lokiPoster{
+    width: 380px;
+    height: 562px;
+}
+.TableDiscreptionDiv{
+    display: inline-block
+
+}
+.TableDiscreption{
+    width: 165%;
+     border: 5px solid rgb(240, 152, 45);
+    border-spacing: 8px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.TdDiscreption{
+    padding: 15px;
+    background-color: rgb(255,248,220);
+   color: black;
+}       
+.SDiscreption{background-color:rgb(240, 152, 45);
+    color:rgb(36, 36, 36);
+    text-align: center
+}
+.ToButton{
+    width: 49.5%;
+    padding: 10px 80px ;
+    background:#04AA6D;
+    color: black;
+    border: 1px black;
+    font-size: 50px;
+    font-weight: bolder;
+    border-radius: 15px ;
+    cursor:pointer;
+}.ToButton:hover{
+    opacity: 0.8; ;
+}
+.Sstory{background-color:rgb(240, 152, 45);
+    color:rgb(36, 36, 36);
+    text-align: center
+}
+.summry{
+    font-size: 30px;
+    font-weight: bolder;
+    color: hsl(34, 64%, 55%);
+}
+.TralierDiscreption{background-color: rgb(240, 152, 45);
+    color:rgb(36, 36, 36);
+    text-align: center
+}
+.TDiscreption{ 
+    font-size: 30px;
+    font-weight: bolder;
+}
+.ActorDiscreption{background-color:rgb(240, 152, 45);
+    color:rgb(36, 36, 36);
+    text-align: center
+}
+.AD{ font-size: 50px;
+    font-weight: bolder;
+}
+.MoviB{width: auto;
+    height: fit-content;
+    display: inline-block;
+}
+.DownloadB{width: auto;
+    height: fit-content;
+    display: inline-block;
+}
+.trailer{
+    text-align: center;
+}
+.DivActors{
+    color:white;
+    font-size: 20px;
+}
+.DivTomHiddleston{
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    text-align: center;
+    margin-right: 30px;
+}
+.TomHiddleston{
+    width: 150px;
+    height: 150px;
+    clip-path: circle();
+}
+.DivSophiaDiMartino{
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    text-align: center;
+    margin-right: 30px;
+}
+.SophiaDiMartino{
+    width: 150px;
+    height: 150px;
+    clip-path: circle();
+}
+.DivOwenWilson{
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    text-align: center;
+    margin-right: 30px;
+}
+.OwenWilson{
+    width: 150px;
+    height: 150px;
+    clip-path: circle();
+}
+.DivWunmiMosaku{
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    text-align: center;
+    margin-right: 30px;
+}
+.WunmiMosaku{
+    width: 150px;
+    height: 150px;
+    clip-path: circle();
+    
+}
+.DivGuguMbathaRaw{
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    text-align: center;
+    margin-right: 30px;
+}
+.GuguMbathaRaw{
+    width: 150px;
+    height: 150px;
+    clip-path: circle();
+}
+.DivJonathanMajors{
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    text-align: center;
+    margin-right: 30px;
+}
+.JonathanMajors{
+    width: 150px;
+    height: 150px;
+    clip-path: circle();
+}
+.DivSoundTrack{
+text-align: center
+}
+.DivStrongSoundTrack{
+    background-color: rgb(240, 152, 45);
+color:rgb(36, 36, 36);
+}
+.StrongSoundTrack{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.MovieDiscription{ 
+    background-color:  rgb(240, 152, 45);
+    color:rgb(36, 36, 36);
+    text-align: center
+    }
+    .MovieDiv{
+        text-align: center;
+    }
+.DownloadTabpleDiv{
+    text-align: center;
+
+}
+.DownloadTaple {
+    width: 100%;
+    border: 5px solid rgb(240, 152, 45);
+   font-size: xx-large;
+   font-weight: bolder;
+}
+.ThDownload{
+    background:rgb(240, 152, 45);
+    height: 50px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+}
+ .DownloadTd{
+    padding: 15px;
+    background-color: rgb(255,248,220);
+   color: black;}
+   .DownlaodButton{
+    padding: 10px 80px !important;
+    color: black!important;
+    font-size: 50px!important;
+    font-weight: bolder!important;
+    cursor:pointer!important;
+    border-radius: 15px ;
+    background-color:#04AA6D;
+}.DownlaodButton:hover{
+    opacity: 0.8!important;
+}
+.DivAnotherMovie{background-color:  rgb(240, 152, 45);
+    color:black;
+    text-align: center}
+.StrongAnotherMovie{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.AnotherMovie{
+  color:white;
+font-size: 20px;
+}
+.DivLoki{
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    text-align: center;
+    margin-right: 50px;
+}
+.freeguy{
+    width: 175px;
+    height: 260px;
+}
+.DivAvengersInfinityWar{
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    text-align: center;
+    margin-right: 50px;
+}
+.AvengersInfinityWar{
+    width: 175px;
+    height: 260px;
+     cursor:pointer;
+}
+.DivDoctorStrangeInTheMultiversOfMadness{
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    text-align: center;
+  
+}
+.DoctorStrangeInTheMultiversOfMadness{
+    width: 175px;
+    height: 260px;
+     cursor:pointer;
+}
+.Divinterstellar{
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+}
+.interstellar{
+    width: 175px;
+    height: 260px;
+     cursor:pointer;
+    
+}
+.DivSpiderManNoWayHome{
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    text-align: center;
+    margin-right: 50px;
+}
+.SpiderManNoWayHome{
+    width: 175px;
+    height: 260px;
+     cursor:pointer;
+}
+.DivTheDarkKnight{
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    text-align: center;
+    margin-right: 50px;
+}
+.TheDarkKnight{
+    width: 175px;
+    height: 260px;
+     cursor:pointer;
+}
+    footer {direction: ltr;
+        margin-top: 2em;
+        margin-top: 2em;
+        background-color:black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      footer #imagef img {
+        margin-left: 46px;
+        margin-top: 30px;
+        height: 195px;
+        width: 190px;
+      }
+      
+      footer #aboutf {
+        margin-right: 18%;
+    
+        width: 23%;
+      }
+      
+      footer #contactf {
+        margin-right: 149px;
+        margin-bottom: 3%;
+      }
+      
+      footer h5 {
+        padding-bottom: 10px;
+        font-family: fantasy;
+        letter-spacing: 1px;
+        font-weight: 500;
+        font-size: 32px;
+      }
+      
+      footer p {
+        font-family: fantasy;
+      }/* The Modal (background) */
+.SeriesModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+    text-align: center
+  }
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: rgb(241, 180, 123);
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 70%; /* Could be more or less, depending on screen size */
+  }
+  /* The Close Button */
+  .CloseSeries {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 5px;
+    font-weight: bold;
+  }
+  /* Close button on hover */
+  .CloseSeries:hover,
+  .CloseSeries:focus {
+    color: red;
+    cursor: pointer;
+  }
+   /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+   @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+   @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }
+  /* Bordered form */
+#seriesform{
+    border: 3px solid #f1f1f1;
+  }
+/* Set a style for all buttons */
+  .seriesbutton {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 35px;
+    font-weight: bold;
+  }
+   /* Add a hover effect for buttons */
+  .seriesbutton:hover {
+    opacity: 0.8;
+  }
+   /* Extra style for the cancel button (red) */
+  .closeButtonseries {
+    font-size: 50px;
+    font-weight: bolder;
+    width: auto;
+   
+    background-color: #f44336;
+    cursor: pointer;
+  }
+  .closeButtonseries:hover {
+    opacity: 0.8;
+  }
+   /* النص اللي كتبناه */
+  .SeriesDescription {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+ a{
+   color: #f1f1f1;
+   text-decoration: none;
+ }
+.NotYet{
+        cursor:pointer;
+
+      }

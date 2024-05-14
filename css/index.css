@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Work Sans", sans-serif;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+body{
+    background-color: black;
+}
+nav {
+    
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    cursor: pointer;
+    width: 72px;
+
+  }
+  
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #606163;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: none;
+    color: #373aff;
+  }
+  
+  nav #container {
+    position: absolute;
+    top: 68px;
+    left: 96%;
+    transform: translate(-50%, -50%);
+  }
+  .dark-mode {
+    background-color: white;
+    color: black;
+  }
+  .Theme{
+    font-size: large;
+    border-radius: 30px;
+    background-color: blue;
+    width: 100px;
+    height: 48px;
+    position: absolute;
+    cursor: pointer;
+    top: -45px;
+    left: -61px;
+}
+.M17{ margin-top:18em;
+    margin-left: 17em;
+    border-radius: 30px;
+    background-color: #606163;
+    height: 50px;
+    width: 250px;
+    font-size: 37px;
+    margin-top: 46px;
+    color:white;}
+.M17:hover{
+    background-color: blue;
+}
+.M18{margin-left:79px;
+    text-decoration: none;
+    text-align:center;}
+
+footer {
+    margin-top: 2em;
+    margin-top: 2em;
+    background-color:#606163;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer #imagef img {
+    margin-left: 46px;
+    margin-top: 30px;
+    height: 195px;
+    width: 190px;
+  }
+  
+  footer #aboutf {
+    margin-right: 18%;
+
+    width: 23%;
+  }
+  
+  footer #contactf {
+    margin-right: 149px;
+    margin-bottom: 3%;
+  }
+  
+  footer h5 {
+    padding-bottom: 10px;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+footer p {
+    font-family: fantasy;
+}
+.slideshow-container {
+  width: 90%;
+  height: 90%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top:40%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family:  Tahoma ;
+ 
+}
+
+
+
+
+.formlogin {
+  width: 400px;
+  height: 500px;
+  margin: 350px 560px;
+  text-align: center;
+  transform: translateY(-50%);
+  position: relative;
+  top: 50%;
+  padding: 35px 20px;
+ background-color: #606163;
+   border-radius: 30px;
+}
+}
+
+.input{
+  display: inline-block;
+  padding: 20px 30px;
+  border: none;
+  margin-top: 15px;
+  width: 85%;
+}
+.button {
+   padding: 8px 20px;
+   margin-top: 15px;
+   background: #91122b;
+   border: none;
+   color: #fff;
+   border-radius: 15px;
+   width: 100%;
+   font-size: 17px;
+   cursor: pointer;
+   transition: 0.5s;
+
+}
+.button:hover {
+   background-color: red;
+  
+}

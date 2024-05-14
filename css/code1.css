@@ -1,0 +1,101 @@
+p{
+    background-color: black;
+    color: red;
+
+}
+ body{
+     background-color: black;
+ }
+
+
+nav {
+   
+   width: 84%;
+   margin: auto;
+   padding: 20px 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ 
+ .logo {
+   cursor: pointer;
+   width: 125px;
+   height: 80px;
+ }
+ 
+ nav ul li {
+   display: inline-block;
+   list-style: none;
+   margin: 10px 20px;
+   font-size: 18px;
+   font-family: sans-serif;
+ }
+ 
+ nav ul li a {
+   text-decoration: none;
+   color: #606163;
+ }
+ 
+ nav ul li a:hover {
+   text-decoration: none;
+   color: white;
+ }
+ 
+ nav #container {
+   position: absolute;
+   top: 68px;
+   left: 96%;
+   transform: translate(-50%, -50%);
+ }
+ .dark-mode {
+   background-color: white;
+   color: black;
+ }
+ .Theme{
+   font-size: larger;
+   border-radius: 30px;
+   background-color: white;
+ width: 110px;
+ height: 50px;
+ cursor: pointer;}
+
+
+ footer {
+   margin-top: 2em;
+   margin-top: 2em;
+   background-color:black;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ footer #imagef img {
+   margin-left: 46px;
+   margin-top: 30px;
+   height: 195px;
+   width: 190px;
+ }
+ 
+ footer #aboutf {
+   margin-right: 18%;
+
+   width: 23%;
+ }
+ 
+ footer #contactf {
+   margin-right: 149px;
+   margin-bottom: 3%;
+ }
+ 
+ footer h5 {
+   padding-bottom: 10px;
+   font-family: fantasy;
+   letter-spacing: 1px;
+   font-weight: 500;
+   font-size: 32px;
+ }
+ 
+ footer p {
+   font-family: fantasy;
+ }

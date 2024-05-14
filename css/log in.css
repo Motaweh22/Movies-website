@@ -1,0 +1,242 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background:url("../media/mostafa media/loginbackground.jpg") ;
+    background-size: cover;
+
+
+   
+}
+img[alt="home"]{
+    position: absolute;
+     left: 110px;
+     top: 33px;
+     border-radius: 50%;
+     width: 120px;
+}
+.form{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 520px;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+h2{
+    color: rgba(255, 255, 255, 0.849);
+    text-align: center;
+    margin-top: 90px;
+
+}
+.password{
+    position: absolute;
+    outline:none;
+    border:none;
+    width: 250px;
+    height: 35px;
+    border-bottom: 2px solid #90b6e1;
+    background: none;
+    padding: 5px;
+    color: #fff;
+    
+}
+.name{
+    position: absolute;
+    outline:none;
+    border:none;
+    width: 250px;
+    height: 35px;
+    border-bottom: 2px solid #90b6e1;
+    background: none;
+    padding: 5px;
+    color: #fff;
+}
+.name{
+    top: 140px;
+    left: 50px;
+}
+.password{
+    top: 210px;
+    left: 50px;
+}
+ .form::placeholder{
+    color: rgba(255, 255, 255, 0.947);
+}
+.login{
+    position: absolute;
+    top: 305px;
+    left: 110px;
+    width: 130px;
+    height: 35px;
+    background: #3f8de7;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 20px;
+    transition: 0.7s;
+}
+.login:hover{
+    background-color: rgb(255, 255, 255);
+    color: #3f8de7;
+}
+p{
+    position: absolute;
+    left: 50px;
+    top: 350px;
+    color: rgb(231, 238, 244);
+    cursor: pointer;
+}
+p:hover{
+    color:#90b6e1 ;
+}
+.register{
+    position: absolute;
+    top: 435px;
+    left: 105px;
+    width: 150px;
+    height: 40px;
+    background: #3f8de7;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px 10px;
+    text-align: center;
+    transition: 0.7s;
+}
+.register:hover{
+    background-color: rgb(255, 255, 255);
+    color: #3f8de7;
+}
+.forgot{
+    left: 13px;
+}
+.remember{
+    position: absolute;color: rgba(248, 236, 236, 0.669);
+    top: 400px;left: 13px;
+    
+}
+
+   
+    
+    
+ 
+.form2{
+    transform: translate(-50%,-50%);
+    padding: 10px 0px 10px 0px ;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    background-color: rgb(231 239 250 / 98%);
+    width: 500px;
+    text-align: center;
+    margin: 20 60;
+    border-radius:50px;
+}
+.form2 {
+    z-index: 999;
+}
+.fname{
+    position: relative;
+    left: -119px;
+    top: 37px;
+    line-height: 40px;
+    border-radius:6px ;
+    padding: 0 7px;
+    font-size: 16px; border: none;
+    outline: none;
+}
+.lname{
+    position: relative;
+    left: 120px;
+    top: -4px;
+    line-height: 40px;
+    border-radius:6px ;
+    padding: 0 7px;
+    color: #555;
+    font-size: 16px; border: none;
+    outline: none;
+}
+.email{
+    position: relative;
+    left:- 90px;
+    top: 50px;
+    line-height: 40px;
+    border-radius:6px ;
+    padding: 0 70px;
+    font-size: 16px; border: none;
+    outline: none;
+
+}
+.supass{
+    position: relative;
+    left: -4px;
+    top: 80px;
+    line-height: 40px;
+    border-radius:6px ;
+    padding: 0 70px;
+    font-size: 16px; border: none;
+    outline: none;
+}
+.Dateofbirth{
+    margin-top: 115px;
+    color: rgb(74 51 51 / 85%); 
+}
+.date #dayt{position: relative;
+    size: 59px;
+
+}
+.gender{ position: relative; color: rgb(74 51 51 / 85%); 
+top: -65px;
+}
+.choose{
+    position: relative;
+top: -65px;
+}
+h6{
+    margin: 0 50px ;
+}
+.sup{
+    position: relative;
+    background: #3f8de7;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 17px 17px;
+    text-align: center;
+    transition: 0.7s; outline: none;
+}
+.sup:hover{
+    background-color: rgb(255, 255, 255);
+    color: #3f8de7;
+}
+.modal {
+    display: none;}
+.cancel{
+    position: relative;
+    background: #3f8de7;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 17px 17px;
+    text-align: right;right: 1px;
+    transition: 0.7s; outline: none;
+}
+.cancel:hover{
+    background-color: rgb(255, 255, 255);
+    color: #3f8de7;
+
+}

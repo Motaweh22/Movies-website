@@ -1,0 +1,355 @@
+
+
+#mybody {
+  background-image: url("../media/maze1_media/wallpaper.jpg");
+
+ background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  
+    
+   
+        
+  }
+ 
+#words {
+  background-color: rgba(207, 210, 51, 0.5);
+  
+}
+
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+.maznav{
+ 
+  
+  padding-left: 250px;
+  justify-content: space-between;
+  
+}
+
+
+
+
+
+.mheader {
+  background-color:#474c39;
+  align-items: center;
+  display: flex;
+ 
+  display: inline-block;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+ 
+  
+
+}
+
+
+.logoo {
+  
+  position: fixed;
+  cursor: pointer;
+  width: 80px;
+  height: 90px;
+ 
+}
+
+
+
+.maznav a {
+text-decoration: none;
+font-size: 22px;
+font-weight: 600;
+padding: 10px 50px ;
+color: #022325;
+
+}
+
+
+
+.btn {
+  
+  display: inline-block;
+  border-radius: 8px;
+  transition: 0.7s ;
+
+}
+
+.btn:hover {
+  background-color: #31604b;
+  transform: scale(1.08);
+  
+}
+
+.maznav a:hover {
+    color: #ffffff;
+   
+}
+
+
+
+.myh1
+
+{
+    color: #343d32;
+    text-align: center;
+  
+}
+.myp 
+{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: large;
+    color: #1c6662;
+    text-align: center;
+}
+
+
+.myp2
+{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+    color: #059789; 
+    text-align: center;
+}
+
+
+.myh
+{
+ color: #b01f1f ;
+ text-align: center;
+ 
+}
+
+
+
+
+.myh2
+{
+  text-align: center;
+ 
+}
+
+
+
+
+
+ 
+
+p{
+  max-width: 99%;
+  font-size: 22px;
+  text-align: center;
+}
+
+
+  #cast {
+    list-style-type:circle;
+   
+    
+  }
+
+
+
+  .cst {
+    
+    border-radius: 8px;
+    transition: 0.2s ;
+
+  }
+
+  .cst:hover {
+    transform: scale(1.3);
+   
+  }
+   
+
+  .mtable {
+    border-collapse: collapse;
+    min-width: 4px;
+    min-height: 5px;
+
+  }
+
+   #mth 
+    {
+      border: 2px solid black;
+   
+    color: black;
+  font-size: 50px;
+  font-weight: 300;
+  background-color: #4c7b74 ;
+  
+  }
+
+  #mtd1 {
+    border:2px solid black;
+    height: 50px;
+    color: #2f584b;
+  font-size: 25px;
+  
+
+  
+  }
+
+  #mtd2 {
+    border:2px solid black;
+    height: 50px;
+   color: #2f4635;
+   font-size: 25px;
+   
+  }
+
+  #mtd3 {
+    border:2px solid black;
+    height: 50px;
+    color : rgb(146, 103, 103);
+    font-size: 25px;
+    
+
+  }
+
+  #mtd4 {
+    border:2px solid black;
+    height: 50px;
+    color: #403249;
+    font-size: 25px;
+    
+  }
+
+  #mtd5 {
+    border:2px solid black;
+    height: 50px;
+   color: #334680;
+   background-color: #a1a483;
+   font-size: 25px;
+   
+  }
+ 
+
+  #maaze {
+    color: rgb(83, 21, 21);
+    font-family:Fantasy;
+    font-size: larger;
+    font-weight: 300;
+    font-style: italic;
+    width: 25%;
+  }
+
+
+ 
+
+ #hr {
+   background-color:gold ;
+   width: 100%;
+   height: 5px;
+   border:black 10px double  ;
+  
+ }
+
+
+
+
+  
+
+  
+ 
+
+
+
+
+
+
+  footer {
+    margin-top: 2em;
+    margin-top: 2em;
+    background-color:rgb(62, 69, 45);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer #imagef img {
+    margin-left: 46px;
+    margin-top: 30px;
+    height: 145px;
+    width: 140px;
+  }
+  
+  footer #aboutf {
+    margin-right: 18%;
+  
+    width: 23%;
+  }
+  
+  footer #contactf {
+    margin-right: 149px;
+    margin-bottom: 3%;
+  }
+  
+  footer h5 {
+    padding-bottom: 10px;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 32px;
+  }
+  
+  footer p {
+    font-family: fantasy;
+  }
+  
+
+
+
+
+  .welcome {
+    color: aqua;
+    font-family: fantasy;
+    font-size: x-large;
+  }
+
+
+  .color { 
+    border:1px solid #3E452D;
+    text-align:center; 
+    padding: 10px; 
+    }
+    
+    .silver, .h7f99a5 , .h6d7160 {
+      border:10px solid transparent ;
+      width:25px;
+      height:25px;  
+      border-radius:50%;  
+    }
+    
+    .silver {
+      background-color:silver; 
+    }
+    
+    
+    .h7f99a5 {
+       background-color:#7f99a5; 
+    }
+    
+    .h6d7160 {
+       background-color:#6d7160; 
+    }
+
+
+
